@@ -109,12 +109,12 @@ const UseCases = ({ onBookCallClick }: UseCasesProps) => {
                   <div className="p-2 bg-primary/10 rounded-lg">
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-lg font-bold text-primary flex-1">
+                  <h3 className="text-xl font-bold text-primary flex-1">
                     {useCase.title}
                   </h3>
                 </div>
-                
-                <div className="space-y-3 text-sm">
+
+                <div className="space-y-3 text-base">
                   <div>
                     <p className="font-semibold text-destructive mb-1">
                       {t("useCases.problemLabel")}

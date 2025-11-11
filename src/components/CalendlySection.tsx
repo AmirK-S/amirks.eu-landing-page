@@ -17,7 +17,7 @@ const CalendlySection = () => {
           </p>
         </div>
 
-        <div className="bg-muted rounded-xl overflow-hidden shadow-[0_4px_24px_rgba(26,26,46,0.08)] min-h-[800px] md:min-h-[800px] sm:min-h-[900px]">
+        <div className="rounded-xl overflow-hidden shadow-[0_4px_24px_rgba(26,26,46,0.08)]">
           <CalComBooker
             username={CAL_USERNAME}
             eventSlug={CAL_EVENT_SLUG}

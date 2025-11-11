@@ -108,7 +108,7 @@ const translations = {
     },
     about: {
       title: "About Me",
-      text: "Amir Kellou-Sidhoum. 24 years old.\n\nI build AI systems and automations for businesses.\n\nI've worked with ENGIE, TotalEnergies, and many others.\n\nI help with prospecting, customer service, operations, administration, and innovative projects.\n\nYour team owns everything after. Full documentation. Full training.\n\nThat's it."
+      text: "Amir Kellou-Sidhoum.\n\nGraduated from École Centrale Paris (top French engineering school).\n\nI've been working with Gen-AI since early on. Built systems for companies like ENGIE, TotalEnergies, and many others.\n\nFrom customer service automation to advanced data processing, predictive analytics, and intelligent workflow orchestration.\n\nNow I help companies harness AI in their processes. Your team owns everything after. Full documentation. Full training.\n\nThat's it."
     },
     finalCTA: {
       title: "Let's Talk",
@@ -234,7 +234,7 @@ const translations = {
     },
     about: {
       title: "À Propos",
-      text: "Amir Kellou-Sidhoum. 24 ans.\n\nJe construis des systèmes IA et des automatisations pour les entreprises.\n\nJ'ai travaillé avec ENGIE, TotalEnergies, et beaucoup d'autres.\n\nJ'aide avec la prospection, le service client, les opérations, l'administratif, et les projets innovants.\n\nTon équipe possède tout après. Documentation complète. Formation complète.\n\nC'est tout."
+      text: "Amir Kellou-Sidhoum.\n\nDiplômé de l'École Centrale Paris (grande école d'ingénieurs française).\n\nJe travaille avec l'IA générative depuis le début. J'ai construit des systèmes pour ENGIE, TotalEnergies, et beaucoup d'autres.\n\nDe l'automatisation du service client au traitement avancé de données, l'analyse prédictive, et l'orchestration intelligente de workflows.\n\nMaintenant j'aide les entreprises à exploiter l'IA dans leurs processus. Ton équipe possède tout après. Documentation complète. Formation complète.\n\nC'est tout."
     },
     finalCTA: {
       title: "Parlons",
