@@ -12,6 +12,11 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: "0.0.0.0",
     port: 4173,
+    allowedHosts: [
+      "kwwowk4gssosc4s04os00k88.72.60.188.233.sslip.io",
+      "me.amirks.eu",
+      ".amirks.eu", // Allow all subdomains
+    ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
