@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import DenemLabsBadge from "./DenemLabsBadge";
 
 interface HeroProps {
   onGetReportClick: () => void;
@@ -13,6 +14,9 @@ const Hero = ({ onGetReportClick, onBookCallClick }: HeroProps) => {
   return (
     <section className="pt-32 pb-20 px-4">
       <div className="container mx-auto max-w-4xl text-center">
+        <div className="flex justify-center mb-6">
+          <DenemLabsBadge />
+        </div>
         <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6 leading-tight">
           {t("hero.title")}
         </h1>
