@@ -14,20 +14,22 @@ const CalComBooker = ({
   onSuccess
 }: CalComBookerProps) => {
   return (
-    <BookerEmbed
-      eventSlug={eventSlug}
-      username={username}
-      view={view}
-      customClassNames={{
-        bookerContainer: "border-subtle border rounded-xl",
-      }}
-      onCreateBookingSuccess={() => {
-        console.log("Booking created successfully");
-        if (onSuccess) {
-          onSuccess();
-        }
-      }}
-    />
+    <div className="w-full" style={{ minHeight: '800px' }}>
+      <BookerEmbed
+        eventSlug={eventSlug}
+        username={username}
+        view={view}
+        customClassNames={{
+          bookerContainer: "border-subtle border rounded-xl",
+        }}
+        onCreateBookingSuccess={() => {
+          console.log("Booking created successfully");
+          if (onSuccess) {
+            onSuccess();
+          }
+        }}
+      />
+    </div>
   );
 };
 

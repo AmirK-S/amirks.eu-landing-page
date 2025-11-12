@@ -28,6 +28,10 @@ const CalendlySection = () => {
             }}
           />
         </div>
+
+        <p className="text-center text-sm text-foreground/60 mt-6">
+          {t("calendly.smallText")}
+        </p>
       </div>
     </section>
   );
